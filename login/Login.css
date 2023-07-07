@@ -1,0 +1,64 @@
+input.invalid {
+  color: var(--carnation-color) !important;
+  font-weight: 400;
+  font-size: 19.5815px;
+}
+
+.user-img {
+  width: 30px;
+  height: 30px;
+}
+
+.forget-password {
+  font-size: 0.875rem;
+  color: unset;
+}
+
+.login__user h1 {
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.login__user figcaption {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+/* login form */
+.login__form form label {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--cold-steel-color);
+}
+
+.login__form p {
+  font-size: 13px;
+  color: var(--cold-steel-color);
+}
+
+.login__form .invalid-feedback,
+.login__form__forgetpassword,
+.login__form .form-check-inline .form-label {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--carnation-color);
+}
+
+.login__form__forgetpassword,
+.login__form .form-check-inline .form-label {
+  color: var(--cold-steel-color);
+}
+
+.login__form__forgetpassword {
+  margin-top: 0.25rem;
+}
+
+.wd-200{
+  width: 200px;
+}
+
+.otp-input{
+  width: 144px;
+  height: 86px;
+}
