@@ -1,0 +1,209 @@
+.card-body{
+    font-size: 13px !important;
+}
+.bl-card{
+    width: 100%;
+    max-width: 21.5rem;
+    overflow: hidden;
+}
+.bl-card img{
+    object-fit: cover;
+    transition: transform 400ms linear;
+}
+.bl-card a:hover img{
+    transform: scale(1.05);
+}
+.bl-p-2 {
+    padding: 0.75rem !important;
+}
+.card-img-top {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.build-icon{
+    width: 24px;
+}
+.prop-tag{
+    background: #EFEFEF;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+.py-1{
+    padding-top: 0.35rem !important;
+    padding-bottom: 0.35rem !important;
+}
+.sold-heading{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-decoration: none;
+    cursor: pointer;
+}
+.recent-heading{
+    color: #252B5C;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-decoration: none;
+    cursor: pointer;
+}
+.sold-heading:hover, .recent-heading:hover{
+    color: #278FD9;
+}
+.sold-page {
+    padding: 0px;
+    margin-top: 20px;
+    /* width: 100%; */
+    overflow-x: hidden;
+}
+.PropertyDetails-heading {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.sold-page-col_div-1 {
+    height: 100%;
+    max-height: 420px;
+    /* padding: 5px; */
+    margin-top: 12px;
+    position: relative;
+    border-radius: 16px;
+    border: 2px solid #EAEAEA;
+}
+.sold-page-col_div_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.sold-page-col_div-3 {
+    top: 4%;
+    left: -1px;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    background: #0070C0;
+    padding: 6px 18px 4px 0;
+    text-transform: uppercase;
+    color: var(--color-white);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.sold-page-col_div-3_span-1-icon {
+    font-size: 12px;
+    margin: 0 10px;
+}
+.sold-page-col_div-4 {
+    top: 4%;
+    right: -1px;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    background: #EFEFEF;
+    text-transform: capitalize;
+    padding: 6px 18px 4px 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: var(--cold-black-color);
+}
+.sold-page-col_div-5 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: start; */
+}
+.sold-page-col_div-5 {
+    position: absolute;
+    top: 81%;
+    left: 2%;
+}
+.sold-page-col_div-6 {
+    padding: 3.45px;
+    border-radius: 14px;
+    background: var(--color-white);
+    box-shadow: 0px 0px 8px rgba(123, 123, 123, .45);
+}
+.sold-page-col_div-6_img {
+    width: 56px;
+    height: 54px;
+    cursor: pointer;
+    border-radius: 14px;
+}
+.sold-page-col_div-6:nth-child(3) {
+    position: relative;
+}
+.sold-page-col_div-7 {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+.sold-page-col_div-7-span {
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 400;
+}
+.sold-page-col_div-8 {
+    display: flex;
+    align-items: center;
+    /* justify-content: start; */
+    margin-top: 20px;
+}
+.sold-page-col_div-8-span {
+    font-weight: 600;
+    border-radius: 8px;
+    background: #EFEFEF;
+    font-size: 14px;
+    padding: 10px 30px 6px 30px;
+    color: var(--silver-surfer);
+}
+/* Media Queri ===================== */
+@media(max-width: 448px) {
+    .sold-page {
+        padding: 0 10px;
+    }
+    .sold-page-col_div-5 {
+        position: absolute;
+        top: 68%;
+        left: 4%;
+    }
+    .sold-page-col_div-8-span {
+        font-weight: 600;
+        border-radius: 8px;
+        background: #EFEFEF;
+        font-size: 14px;
+        padding: 10px 14px;
+        color: var(--silver-surfer);
+    }
+}
+@media(max-width: 576px) and (min-width: 448px) {
+    .sold-page {
+        padding: 0 10px;
+    }
+    .sold-page-col_div-5 {
+        position: absolute;
+        top: 72%;
+        left: 4%;
+    }
+}
+@media(max-width: 768px) and (min-width: 576px) {
+    .sold-page-col_div-5 {
+        position: absolute;
+        top: 76%;
+        left: 4%;
+    }
+}
+
+
+
+
+
+
+
+
+

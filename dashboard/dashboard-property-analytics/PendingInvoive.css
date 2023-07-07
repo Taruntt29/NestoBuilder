@@ -1,0 +1,4 @@
+.dashboard__wrapper__filter select {
+    font-weight: 400;
+    color: var(--cold-steel-color);
+  }

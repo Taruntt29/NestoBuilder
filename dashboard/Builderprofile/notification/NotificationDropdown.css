@@ -1,0 +1,43 @@
+.notification__menu .shadow-card {
+  margin: 1rem 0rem !important;
+  border: 0.920177px solid #ebecf0;
+  box-shadow: none !important;
+  border-radius: 10.122px;
+  background: #f8f8f8;
+  border-radius: 7.51047px;
+}
+
+.notification__menu {
+  padding: 0.5rem 0.8rem;
+  background: #ffffff;
+  border: 0.920177px solid #ebecf0;
+  box-shadow: 0px 5.52106px 24.0166px rgba(0, 0, 0, 0.09);
+  border-radius: 10.122px;
+}
+
+.notification__menu .dropdown-header {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+}
+
+.notification .dropdown-toggle {
+  color: #000000;
+  width: 30px !important;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.view-all {
+  font-family: 'Bahnschrift';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.0442px;
+  line-height: 14px;
+  background-color: none;
+  color: #288fd8;
+}

@@ -1,0 +1,32 @@
+.card-blue {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.card-border {
+  background: #ffffff;
+  border: 1px solid #eae8e8;
+  border-radius: 14.4785px;
+  /* padding: 10px 20px; */
+}
+.card-title {
+  font-size: 0.9rem;
+}
+
+.dashboard-cards a {
+  color: unset;
+  text-decoration: none;
+}
+
+.dashboard-cards .card-blue {
+  color: #ffffff !important;
+}
+
+.dashboard-cards a:hover {
+  color: unset;
+}
+
+.dashboard__infocard .card-title {
+  font-weight: 600;
+  font-size: 16px;
+}

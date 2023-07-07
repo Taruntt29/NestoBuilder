@@ -1,0 +1,52 @@
+.dashboard__wrapper__filter select {
+    font-weight: 400;
+    color: var(--cold-steel-color);
+  }
+h3, .h3 {
+    font-size: 1.45rem;    
+}
+.heading{
+  font-weight: 700;
+}
+.shadow-sm{
+  box-shadow: 0px 3.97181px 17.3767px rgba(0, 0, 0, 0.07) !important;
+}
+.shadow-recent{
+  box-shadow: 0px 4.21262px 18.9568px rgba(0, 112, 192, 0.3);
+}
+.plan{
+  background: #D8D9DB;
+}
+.plang{
+  background: #FFE089;
+}
+.planp{
+  background: #C3C9B2;
+}
+.list-group-item {
+  padding: 0.25rem;
+  border: none; 
+}
+.btn{
+  font-size: 14px;
+}
+.btn.btn-transparent{
+  color: #278FD9;
+}
+.btn.btn-transparent:hover{
+  color: #fff !important;
+  background: #278FD9;
+}
+.btn.btn-primary:hover{
+  background: rgb(13 110 253 / 20%) !important;
+    color: var(--primary-color) !important;
+    border: 1px solid rgb(13 110 253 / 20%) !important;
+}
+.profile__form input, .profile__form select {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  padding: 10px;
+  background: #f8f8f8;
+  border: 1px solid #e9e9e9;
+}

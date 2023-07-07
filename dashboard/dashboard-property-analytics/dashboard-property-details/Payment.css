@@ -1,0 +1,36 @@
+.BlLocationAdvantageLocations {
+    margin-top: 45px;
+    padding: 0;
+}
+.BlLocationAdvantageLocations-col {
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    padding: 10px 0 10px 10px;
+    border: 2px solid #EAEAEA;
+    cursor: pointer;
+}
+.BlLocationAdvantageLocations-col_child-div_img {
+    box-shadow: 4px 10px 30px 1px rgba(0, 0, 0, 0.075);
+    width: 100%;
+    border-radius: 14px;
+}
+.BlLocationAdvantageLocations-child-div_span-1 {
+    display: block;
+    font-size: 19px;
+    font-weight: 600;
+}
+.BlLocationAdvantageLocations-child-div_span-2 {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    color: var(--silver-surfer);
+}
+.BlLocationAdvantageLocations-child-div_span-3 {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 15px;
+    color: var(--silver-surfer);
+}

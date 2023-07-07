@@ -1,0 +1,32 @@
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .on {
+    color: #FFC107;
+  }
+  .off {
+    color: #ccc;
+  }
+
+  .visit-details-tab li.nav-item{
+    width: 25%;
+  }
+  .calim-sub-head, .brokerage-head, .milestone-head{
+    font-size: 1rem;
+  }
+  .text-right{
+    text-align: right;
+  }
+  td h6.milestone-pay{
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .brokerage-table table tr{
+    vertical-align: middle;
+  }
+  .brokerage-table table thead{
+    height: 55px;
+  }

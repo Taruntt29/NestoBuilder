@@ -1,0 +1,118 @@
+.profile-sidebar.profile__sidebar__wrapper {
+  background: #ecf7ff !important;
+  border-radius: 25px;
+}
+
+.profile__sidebar__wrapper__icon {
+  width: 34px;
+  height: 34px;
+  background: #fdfdfd;
+  border: 1px solid #e3e3e7;
+  box-shadow: 0px 3px 12px rgba(69, 69, 69, 0.15) !important;
+  border-radius: 8px;
+}
+
+.profile__sidebar__wrapper .nav {
+  background: #ffffff;
+  border-radius: 25px;
+}
+
+.profile__sidebar__wrapper .nav-link {
+  color: #000000 !important;
+  padding: 15px 20px !important;
+}
+.profile__sidebar__wrapper .nav-link {
+  border-bottom: 1px solid #ebecf0;
+}
+.profile__sidebar__wrapper .nav-link.active,
+.profile__sidebar__wrapper .nav-item:last-child .nav-link {
+  border: none !important;
+}
+
+.profile__sidebar__wrapper .nav-link.active,
+.profile__sidebar__wrapper .nav-item.show .nav-link {
+  background-color: #278fd9 !important;
+  border-radius: 25px;
+  border: none !important;
+  letter-spacing: 0.01em !important;
+  color: #ffffff !important;
+}
+
+.profile__sidebar__wrapper .nav-link {
+  display: flex;
+  color: #000000 !important;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+
+.profile__image {
+  width: 120px;
+  height: 120px;
+}
+
+.profile__sidebar__wrapper h4 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #282431;
+}
+
+.profile__sidebar__wrapper p {
+  font-weight: 400;
+  font-size: 13px;
+  color: #282431;
+  opacity: 0.5;
+}
+
+.profile__image img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.profile__image__overlay {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  padding: 0.3rem;
+  transform: translate(50%, 50%);
+  background-color: #278fd9;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.profile__image__overlay:hover {
+  transform: translate(50%, 50%) scale(1.2);
+}
+
+.profile__sidebar__wrapper__signout {
+  padding: 15px 20px !important;
+  background: #ffffff;
+  border: 1px solid #278fd9;
+  border-radius: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #278fd9;
+}
+
+/* profile form */
+.profile__form .form-label {
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+}
+
+.profile__form input {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  padding: 14px;
+  background: #f8f8f8;
+  border-radius: 10px;
+}

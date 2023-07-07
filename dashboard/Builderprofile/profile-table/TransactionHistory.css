@@ -1,0 +1,22 @@
+.profile__transaction td,
+.profile__transaction th {
+  background: #ffffff;
+  border: 1.39082px solid #e9e9e9;
+  border-radius: 11.1266px;
+}
+
+.profile__transaction th {
+  padding-block: 1rem;
+}
+
+.profile__transaction td {
+  font-weight: 400;
+  font-size: 14px;
+  color: #838383;
+}
+
+.profile__transaction th {
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
