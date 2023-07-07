@@ -1,0 +1,39 @@
+.login__header{
+  background: #ECF7FF;
+}
+.login__header__img {
+    width: 170px;
+  }
+  
+  .login__header .nav-link {
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .login__header .nav-link:hover {
+    background-color: var(--primary-color);
+    color: #ECF7FF;
+  }
+  .notification{
+    width: 2.1em;
+    height: 2em;
+    background: #278fd9;
+    padding: 7px 10px;
+    border-radius: 50%;
+  }
+  .subscription{
+    width: 2em;
+    height: 2em;
+    background: #278fd9;
+    padding: 6px;
+    border-radius: 50%;
+  }
+  .eye{
+    width: 22px;
+  }
+  .br-profile{
+    width: 34px;
+    height: 34px;
+  }
